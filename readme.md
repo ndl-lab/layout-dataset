@@ -76,46 +76,27 @@ http://dl.ndl.go.jp/files/dataset/dataset_201907_t_internet.zip
 Pascal
 VOC形式でレイアウトの矩形情報とラベル名を記述したxmlを画像ごとに提供する。1600\*1200サイズの画像から資料全体の含まれる矩形領域を記述した例を以下に挙げる。
 
-  ----------------------------------------------------
-  &lt;?xml version="1.0"?&gt;
-  
-  &lt;annotation&gt;
-  
-  >&lt;folder&gt;kotenseki&lt;/folder&gt;
-  
-  >&lt;filename&gt;3510690\_36&lt;/filename&gt;
-  
-  >&lt;path&gt;kotenseki/3510690\_36.jpg&lt;/path&gt;
-  
-  >&lt;size&gt;
-  
-  >>&lt;width&gt;1600&lt;/width&gt;
-  
-  >>&lt;height&gt;1200&lt;/height&gt;
-  
-  >&lt;/size&gt;
-  
-  >&lt;object&gt;
-  
-  >>&lt;name&gt;1\_overall&lt;/name&gt;
-  
-  >>&lt;bndbox&gt;
-  
-  >>>&lt;xmin&gt;300&lt;/xmin&gt;
-  
-  >>>&lt;ymin&gt;149&lt;/ymin&gt;
-  
-  >>>&lt;xmax&gt;1299&lt;/xmax&gt;
-  
-  >>>&lt;ymax&gt;1080&lt;/ymax&gt;
-  
-  >>&lt;/bndbox&gt;
-  
-  >&lt;/object&gt;
-  
-  &lt;/annotation&gt;
-  
-  ----------------------------------------------------
+```xml
+<?xml version="1.0"?>
+<annotation>
+  <folder>kotenseki</folder>
+  <filename>3510690\_36</filename>
+  <path>kotenseki/3510690\_36.jpg</path>
+  <size>
+    <width>1600</width>
+    <height>1200</height>
+  </size>
+  <object>
+    <name>1\_overall</name>
+    <bndbox>
+      <xmin>300</xmin>
+      <ymin>149</ymin>
+      <xmax>1299</xmax>
+      <ymax>1080</ymax>
+    </bndbox>
+  </object>
+</annotation>
+```
 
 同一資料内に複数のレイアウトが存在する場合、xml内にobjectを複数記述することで対応する。
 
