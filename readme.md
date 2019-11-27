@@ -25,7 +25,7 @@ NDLDocLデータセット(資料画像レイアウトデータセット)
   |資料の種類                   | 画像数
   |-------------------|----------
   |古典籍資料 (https://lab.ndl.go.jp/dataset/dataset_kotenseki.zip)          |約1200画像
-  |明治期以降刊行資料(https://lab.ndl.go.jp/dataset/dataset_kindai.zip)    |約800画像
+  |明治期以降刊行資料(https://lab.ndl.go.jp/dataset/dataset_kindai.zip)    |約1000画像
 
 ### 1.3 データセットの権利
 
