@@ -60,11 +60,10 @@ http://dl.ndl.go.jp/info:ndljp/pid/2534020
 
 https://www.ndl.go.jp/jp/dlib/standards/opendataset/index.html
 
-古典籍資料は以下から、
+各メタデータは以下から、
 
 http://dl.ndl.go.jp/files/dataset/dataset_201907_k_internet.zip
 
-明治以降刊行資料については以下から、
 
 http://dl.ndl.go.jp/files/dataset/dataset_201907_t_internet.zip
 
@@ -80,8 +79,8 @@ VOC形式でレイアウトの矩形情報とラベル名を記述したxmlを�
 <?xml version="1.0"?>
 <annotation>
   <folder>kotenseki</folder>
-  <filename>3510690\_36</filename>
-  <path>kotenseki/3510690/3510690\_36.jpg</path>
+  <filename>3510690_36</filename>
+  <path>kotenseki/3510690/3510690_36.jpg</path>
   <source>
     <database>NDLDocL</database>
   </source>
@@ -91,7 +90,7 @@ VOC形式でレイアウトの矩形情報とラベル名を記述したxmlを�
   </size>
   <segmented>0</segmented>
   <object>
-    <name>1\_overall</name>
+    <name>1_overall</name>
     <bndbox>
       <xmin>300</xmin>
       <ymin>149</ymin>
