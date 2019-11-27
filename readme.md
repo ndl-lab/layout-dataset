@@ -1,6 +1,8 @@
-データセットの概要
+# NDLDocLデータセット(資料画像レイアウトデータセット)
+
+## データセットの概要
 ==================
-このデータセットは以下のURLから公開している<br/>
+本データセットは以下のURLから公開している<br/>
 古典籍資料：https://lab.ndl.go.jp/dataset/dataset_kotenseki.zip
 
 明治以降刊行資料:https://lab.ndl.go.jp/dataset/dataset_kindai.zip
