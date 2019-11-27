@@ -21,7 +21,7 @@
 
   |資料の種類                   | 画像数
   |-------------------|----------
-  |古典籍資料 (https://lab.ndl.go.jp/dataset/dataset_kotenseki.zip)          |約800画像
+  |古典籍資料 (https://lab.ndl.go.jp/dataset/dataset_kotenseki.zip)          |約1200画像
   |明治期以降刊行資料(https://lab.ndl.go.jp/dataset/dataset_kindai.zip)    |約800画像
 
 ### 1.3 データセットの権利
@@ -81,11 +81,15 @@ VOC形式でレイアウトの矩形情報とラベル名を記述したxmlを�
 <annotation>
   <folder>kotenseki</folder>
   <filename>3510690\_36</filename>
-  <path>kotenseki/3510690\_36.jpg</path>
+  <path>kotenseki/3510690/3510690\_36.jpg</path>
+  <source>
+    <database>NDLDocL</database>
+  </source>
   <size>
     <width>1600</width>
     <height>1200</height>
   </size>
+  <segmented>0</segmented>
   <object>
     <name>1\_overall</name>
     <bndbox>
