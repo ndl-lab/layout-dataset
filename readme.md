@@ -38,7 +38,7 @@ NDLDocLデータセット(資料画像レイアウトデータセット)
 
 データセットは画像ごとに以下の2種類を含む。
 
-(1) 資料画像(高精細jpeg画像)
+(1) 資料画像(jpeg画像)
 
 (2) アノテーションデータ(xml形式)
 
@@ -54,7 +54,7 @@ http://dl.ndl.go.jp/info:ndljp/pid/2534020
 
 (PID)_(コマ番号)
 となっている。
-例えば2534020_3は、http://dl.ndl.go.jp/info:ndljp/pid/2534020
+例えば2534020_0003は、http://dl.ndl.go.jp/info:ndljp/pid/2534020
 のコマ番号3にある。
 
 **PIDと資料名の対応表**
@@ -82,8 +82,8 @@ VOC形式でレイアウトの矩形情報とラベル名を記述したxmlを�
 <?xml version="1.0"?>
 <annotation>
   <folder>kotenseki</folder>
-  <filename>3510690_36</filename>
-  <path>kotenseki/3510690/3510690_36.jpg</path>
+  <filename>3510690_0036</filename>
+  <path>kotenseki/3510690/3510690_0036.jpg</path>
   <source>
     <database>NDLDocL</database>
   </source>
