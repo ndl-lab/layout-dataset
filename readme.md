@@ -25,7 +25,7 @@ NDL-DocLデータセット(ver1.0)の内訳は以下のとおりです。
   |資料の種類                   | 画像数
   |-------------------|----------
   |古典籍資料 (https://lab.ndl.go.jp/dataset/dataset_kotenseki.zip)          |1,219画像
-  |明治期以降刊行資料(https://lab.ndl.go.jp/dataset/dataset_kindai.zip)    |1,0画像
+  |明治期以降刊行資料(https://lab.ndl.go.jp/dataset/dataset_kindai.zip)    |1,071画像
 
 ### 1.3 データセットの権利
 「PDM（パブリック・ドメイン・マーク）」&lt; https://creativecommons.org/publicdomain/mark/1.0/deed.ja &gt;
