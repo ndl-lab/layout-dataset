@@ -28,7 +28,7 @@ NDLDocLデータセット(ver1.0)の内訳は以下のとおりです。
   |明治期以降刊行資料(https://lab.ndl.go.jp/dataset/dataset_kindai.zip)    |約1000画像
 
 ### 1.3 データセットの権利
-「PDM（パブリック・ドメイン・マーク）」https://creativecommons.org/publicdomain/mark/1.0/deed.ja
+「PDM（パブリック・ドメイン・マーク）」&lt; https://creativecommons.org/publicdomain/mark/1.0/deed.ja &gt;
 
 ※古典籍資料、明治期以降刊行資料ともに著作権保護期間満了資料のみを対象としています。
 
