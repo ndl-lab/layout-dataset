@@ -1,0 +1,44 @@
+{
+  "name": "dms-ld-front",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --config webpack.dev.js",
+    "build": "webpack-cli --config webpack.prod.js"
+  },
+  "author": "ndl",
+  "dependencies": {
+    "axios": "*",
+    "buefy": "*",
+    "konva": "^4.0.4",
+    "throttle-debounce": "*",
+    "tslib": "*",
+    "vue": "*",
+    "vue-class-component": "*",
+    "vue-context-menu": "^2.0.6",
+    "vue-form-wizard": "*",
+    "vue-property-decorator": "*",
+    "vue-router": "*",
+    "vue-scrollto": "*",
+    "vue-smooth-dnd": "*"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "clean-webpack-plugin": "*",
+    "css-loader": "*",
+    "file-loader": "*",
+    "html-loader": "*",
+    "node-sass": "^4.11.0",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "ts-loader": "*",
+    "typescript": "*",
+    "url-loader": "*",
+    "vue-loader": "*",
+    "webpack": "*",
+    "vue-template-compiler": "*",
+    "webpack-bundle-analyzer": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*",
+    "webpack-merge": "*"
+  }
+}

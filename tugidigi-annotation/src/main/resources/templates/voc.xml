@@ -1,0 +1,26 @@
+<annotation>
+    <folder></folder>
+    <filename th:text="${i.id}">2544473_1.jpg</filename>
+    <path></path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width th:text="${i.size.width}">1600</width>
+        <height th:text="${i.size.height}">1200</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object th:each="obj : ${i.annotations}">
+        <name th:text="${obj.name}">1_overall</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin th:text="${obj.bndbox.xmin}">76</xmin>
+            <ymin th:text="${obj.bndbox.ymin}">77</ymin>
+            <xmax th:text="${obj.bndbox.xmax}">798</xmax>
+            <ymax th:text="${obj.bndbox.ymax}">1006</ymax>
+        </bndbox>
+    </object>
+</annotation>

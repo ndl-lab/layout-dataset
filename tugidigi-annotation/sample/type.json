@@ -1,0 +1,38 @@
+{
+  "id": "kindai",
+  "name": "明治以降資料",
+  "types": [
+    {
+      "id": "1_overall",
+      "name": "資料範囲全体"
+    },
+    {
+      "id": "5_stamp",
+      "name": "印影",
+      "description":"蔵書印等"
+    },
+    {
+      "id": "6_headline",
+      "name": "見出し"
+    },
+    {
+      "id": "4_illustration",
+      "name": "イラスト"
+    },
+    {
+      "id": "7_caption",
+      "name": "図表見出し",
+      "description": ""
+    },
+    {
+      "id": "8_textline",
+      "name": "テキスト行",
+      "description": "6_headline, 7_caption以外のテキストライン"
+    },
+    {
+      "id": "9_table",
+      "name": "表",
+      "description": "※表の中身については8_ textlineを別に付与"
+    }
+  ]
+}

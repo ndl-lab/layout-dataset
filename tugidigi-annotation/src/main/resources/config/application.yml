@@ -1,0 +1,14 @@
+server:
+  max-http-header-size : 80000 
+  compression:
+    enabled: true
+    mime-types: application/json
+spring:
+  http:
+    encoding:
+      enable: false
+  servlet:
+  main:
+    banner-mode: "off"
+management:
+    add-application-context-header: false

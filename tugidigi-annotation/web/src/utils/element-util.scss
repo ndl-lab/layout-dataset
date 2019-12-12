@@ -1,0 +1,26 @@
+@import "_palette.scss";
+
+.accordion-mixin-icon {
+  cursor: pointer;
+  /*width: 4em;*/
+  // margin-left: auto;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  transition: $transition;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &.is-open {
+    /*background: red;*/
+    transform: rotate(-180deg);
+  }
+  .control-icon {
+    /*width: 100%;*/
+    line-height: 100%;
+  }
+}
+
+.accordion-mixin-wrapper {
+  overflow: hidden;
+  transition: $transition;
+}

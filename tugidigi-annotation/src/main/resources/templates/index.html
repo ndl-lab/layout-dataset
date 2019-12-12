@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>次デジアノテーター</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="/favicon.ico" rel="shortcut icon" />
+        <link
+            rel="stylesheet"
+            href="//cdn.materialdesignicons.com/4.0.96/css/materialdesignicons.min.css"
+            />
+        <style>
+            @keyframes loading {
+                from {
+                    left: -30%;
+                    width: 30%;
+                }
+
+                50% {
+                    width: 30%;
+                }
+
+                70% {
+                    width: 70%;
+                }
+
+                80% {
+                    left: 50%;
+                }
+
+                95% {
+                    left: 120%;
+                }
+
+                to {
+                    left: 100%;
+                }
+            }
+
+            .loading-blocker {
+                display: none;
+                opacity: 0;
+            }
+
+            .loading-blocker.is-loading {
+                opacity: 1;
+                position: fixed;
+                top: 0;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                height: 100vh;
+                width: 100vw;
+                z-index: 9999;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+
+            .line-loader {
+                height: 4px;
+                width: 100%;
+                position: relative;
+                overflow: hidden;
+                background-color: #ddd;
+            }
+
+            .line-loader:before {
+                display: block;
+                position: absolute;
+                content: "";
+                left: -30%;
+                width: 100vw;
+                top: 0;
+                height: 4px;
+                background-color: #45b2d3;
+                animation: loading 2s linear infinite;
+                will-change: left, width;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="loading-blocker is-loading">
+            <div class="line-loader"></div>
+        </div>
+        <div id="app"></div>
+        <script src="/annot/assets/app.bundle.js"></script>
+    </body>
+</html>
