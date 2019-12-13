@@ -1,5 +1,7 @@
 # Book Layout Annotator
 
+<img src="https://github.com/ndl-lab/layout-dataset/images/ss.png" alt="annotation editor image" title="screen shot">
+
 ## back
 
 Backend is spring-boot-based Single Jar Application.
