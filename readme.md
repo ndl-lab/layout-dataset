@@ -141,7 +141,7 @@ VOC形式でレイアウトの矩形情報とラベル名を記述したxmlを�
   |4   | 4\_illustration  | イラスト
   |5   | 5\_stamp         | 印影（蔵書印等）
 
-<img src="https://github.com/ndl-lab/layout-dataset/images/kotenseki_ss.PNG" alt="kotenseki sample image" title="screen shot">
+<img src="https://github.com/ndl-lab/layout-dataset/blob/master/images/kotenseki_ss.PNG" alt="kotenseki sample image" title="screen shot">
 
 ### 3.2 明治期以降刊行資料について
 
@@ -164,7 +164,7 @@ VOC形式でレイアウトの矩形情報とラベル名を記述したxmlを�
 
 ※ラベル名の先頭の数字は両資料で通し番号
 
-<img src="https://github.com/ndl-lab/layout-dataset/images/kindai_ss.PNG" alt="kindai sample image" title="screen shot">
+<img src="https://github.com/ndl-lab/layout-dataset/blob/master/images/kindai_ss.PNG" alt="kindai sample image" title="screen shot">
 
 
 
