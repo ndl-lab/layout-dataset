@@ -1,6 +1,6 @@
 NDL-DocLデータセット(資料画像レイアウトデータセット)
 ==================
-Click here for the English version of the readme(./readme_en.md)
+Click [here](./readme_en.md) for the README(English version)
 
 ## データセットの概要
 
