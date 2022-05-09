@@ -3,10 +3,10 @@ NDL-DocL Datasets
 
 ## Overview of the datasets
 
-NDL-DocL datasets can be accessed via the following URL. <br/>
+NDL-DocL datasets can be accessed via the following URLs. <br/>
 The latest version is 1.0 (as of Dec. 9, 2019). <br/>
 
-Rare Books and Old Materials: https://lab.ndl.go.jp/dataset/dataset_kotenseki.zip
+Rare Books and Old Materials: https://lab.ndl.go.jp/dataset/dataset_kotenseki.zip <br/>
 Materials published after 1868: https://lab.ndl.go.jp/dataset/dataset_kindai.zip
 
 
