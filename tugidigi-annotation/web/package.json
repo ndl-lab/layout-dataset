@@ -27,7 +27,7 @@
     "css-loader": "*",
     "file-loader": "*",
     "html-loader": "*",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "*",
     "style-loader": "*",
     "ts-loader": "*",
